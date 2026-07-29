@@ -9,9 +9,8 @@ body{
 
     min-height:100vh;
 
-    display:flex;
-    justify-content:center;
-    align-items:flex-start;
+    display:grid;
+    place-items:center;
 
     padding:40px;
 
@@ -28,8 +27,9 @@ body{
 
     color:white;
 }
-.container {
-  overflow: auto;
+
+.container{
+    margin:auto;
 }
 .container::-webkit-scrollbar {
   width: 100px;
